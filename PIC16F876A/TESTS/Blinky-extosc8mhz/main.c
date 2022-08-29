@@ -14,7 +14,7 @@
 #include <xc.h>
 #define _XTAL_FREQ 8000000 //Specify the XTAL crystal FREQ
 void main(void) {
-    //PORTD pin 0 as output
+    //PORTC pin 0 as output
     TRISC4 = 0;
     //Initialize the variable
     int i = 0;
